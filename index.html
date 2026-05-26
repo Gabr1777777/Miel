@@ -88,19 +88,19 @@
 <body oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
 
 <div class="intro" id="intro">
-    <button class="enter-btn" id="enterBtn">ENTRAR</button>
+    <button class="enter-btn" id="enterBtn">ENTER</button>
 </div>
 
 <div class="hearts-container" id="heartsBg"></div>
 
 <div class="zoom-overlay" id="zoomOverlay">
     <img src="" id="zoomImg">
-    <button class="close-zoom" onclick="closeZoom()">VOLTAR</button>
+    <button class="close-zoom" onclick="closeZoom()">GO BACK</button>
 </div>
 
 <div class="wrapper" id="mainWrapper">
     <div class="profile">
-        <div class="avatar"><img src="https://i.imgur.com/YDKnxJi.jpeg"></div>
+        <div class="avatar"><img src="https://i.imgur.com/ltKXN2U.png"></div>
         
         <div class="player" id="playerBox">
             <img id="cover" src="https://xatimg.com/image/qK8We4sUV6i7.png">
@@ -120,39 +120,31 @@
         </div>
 
         <div class="menu" id="tabMenu">
-            <span class="active" data-tab="perfil">PERFIL</span>
-            <span data-tab="amigos">AMIGOS</span>
-            <span data-tab="galeria">GALERÍA</span>
+            <span class="active" data-tab="perfil">PROFILE</span>
+            <span data-tab="amigos">FRIENDS</span>
+            <span data-tab="galeria">GALLERY</span>
         </div>
 
         <div class="tabs-content">
             <div class="tab active" id="perfil">
-                <h1 style="text-align:center; font-size: 32px; padding-top: 20px;">♥ Name ♥</h1>
-                <p style="text-align:center; opacity:0.5; font-size: 12px; padding: 10px 10px;">Ela era assim... Meio desfragmentada. Mas em todos os fragmentos dos seus espelhos podia-se contemplar o reflexo do amor.</p>
+                <h1 style="text-align:center; font-size: 32px; padding-top: 20px;">♥ Miel ♥</h1>
+                <p style="text-align:center; opacity:0.5; font-size: 12px; padding: 10px 10px;">Love yourself because at the end, you have only you.</p>
             </div>
 
             <div class="tab" id="amigos" style="text-align:center;">
                  <ul class="friends-list">
-                     <li>ID: 123456</li>
-                     <li>ID: 654321</li>
-                     <li>ID: 142536</li>
-                     <li>ID: 987654</li>
-                     <li>ID: 456789</li>
+                     <li>Ayten ID: (1481447583)</li>
+                     <li>Sandy ID: (﻿86513499)</li>
+                     <li>ERLY ID: (﻿3M)</li>
+                     <li>kassy ID: (﻿1522052719)</li>
+                     <li>Erdm  ID: (﻿75972489)</li>
                  </ul>
             </div>
 
             <div class="tab" id="galeria">
                 <div class="gallery-grid">
-                    <div onclick="openZoom(this)"><img src="https://i.imgur.com/0h6IQIZ.jpeg"></div>
-                    <div onclick="openZoom(this)"><img src="https://i.imgur.com/0h6IQIZ.jpeg"></div>
-                    <div onclick="openZoom(this)"><img src="https://i.imgur.com/0h6IQIZ.jpeg"></div>
-                    <div onclick="openZoom(this)"><img src="https://i.imgur.com/0h6IQIZ.jpeg"></div>
-                    <div onclick="openZoom(this)"><img src="https://i.imgur.com/0h6IQIZ.jpeg"></div>
-                    <div onclick="openZoom(this)"><img src="https://i.imgur.com/0h6IQIZ.jpeg"></div>
-                    <div onclick="openZoom(this)"><img src="https://i.imgur.com/0h6IQIZ.jpeg"></div>
-                    <div onclick="openZoom(this)"><img src="https://i.imgur.com/0h6IQIZ.jpeg"></div>
-                    <div onclick="openZoom(this)"><img src="https://i.imgur.com/0h6IQIZ.jpeg"></div>
-                    <div onclick="openZoom(this)"><img src="https://i.imgur.com/0h6IQIZ.jpeg"></div>
+                    <div onclick="openZoom(this)"><img src="https://i.imgur.com/XaSt8WG.png"></div>
+                    <div onclick="openZoom(this)"><img src="https://i.imgur.com/tZWMTbM.png"></div>
                 </div>
             </div>
         </div>
@@ -167,7 +159,7 @@
     };
 
     const playlist = [
-        { name: "Eminem - You dont know", url: "https://www.dropbox.com/scl/fi/4y0lc0fi24e9yavn17psv/Eminem-you-dont-know.mp3.mp3?rlkey=zicb6spgqe3pv0gqnz3xc24zo&st=wy1w0icm&raw=1" },
+        { name: "Taylor - Swift Daylight", url: "https://www.dropbox.com/scl/fi/zk46b23qwad7xgv6gmjmr/Taylor-Swift-Daylight-Lyric-Video.mp3?rlkey=rfmldr1ix84j8hnudsnvkkrjg&st=o9rijbhj&raw=1" },
         { name: "The Sound of Silence – Rising to the Night", url: "https://www.dropbox.com/scl/fi/2y9zhx5zjsdxg3zljc2f9/sound-of-silence.mp3.mp3?rlkey=88zg0td3loy40uxmcm9rnk1jt&st=qty8093e&raw=1" },
         { name: "Desireless - Voyage Voyage", url: "https://www.dropbox.com/scl/fi/2y9zhx5zjsdxg3zljc2f9/sound-of-silence.mp3.mp3?rlkey=88zg0td3loy40uxmcm9rnk1jt&st=0yenl8sh&raw=1" }
     ];
