@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -83,6 +83,8 @@
         /* LISTA AMIGOS */
         .friends-list { list-style: none; padding-top: 10px; }
         .friends-list li { margin-bottom: 10px; font-size: 14px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 5px; }
+        .friends-list a { color: #fff; text-decoration: none; display: block; width: 100%; height: 100%; cursor: pointer !important; }
+        .friends-list a:hover { opacity: 0.8; }
     </style>
 </head>
 <body oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
@@ -105,7 +107,7 @@
         <div class="player" id="playerBox">
             <img id="cover" src="https://xatimg.com/image/qK8We4sUV6i7.png">
             <div style="font-size:10px; margin:10px 0; height: 30px; overflow: hidden;">
-                <span id="musicName">Cargando...</span>
+                <span id="musicName">Loading...</span>
             </div>
             <div class="controls">
                 <button onclick="prev()">⏮</button>
@@ -133,11 +135,11 @@
 
             <div class="tab" id="amigos" style="text-align:center;">
                  <ul class="friends-list">
-                     <li>Ayten ID: (1481447583)</li>
-                     <li>Sandy ID: (﻿86513499)</li>
-                     <li>ERLY ID: (﻿3M)</li>
-                     <li>kassy ID: (﻿1522052719)</li>
-                     <li>Erdm  ID: (﻿75972489)</li>
+                     <li><a href="https://xat.me/1481447583" target="_blank">Ayten ID: (1481447583)</a></li>
+                     <li><a href="https://xat.me/86513499" target="_blank">Sandy ID: (86513499)</a></li>
+                     <li><a href="https://xat.me/erly" target="_blank">ERLY ID: (3M)</a></li>
+                     <li><a href="https://xat.me/1522052719" target="_blank">kassy ID: (1522052719)</a></li>
+                     <li><a href="https://xat.me/75972489" target="_blank">Erdm ID: (75972489)</a></li>
                  </ul>
             </div>
 
